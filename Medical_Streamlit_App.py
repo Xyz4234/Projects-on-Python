@@ -56,5 +56,6 @@ if cancer_type != "Select":
                 st.write(f"Selected Cancer: {cancer_instance.title}")
                 result = cancer_instance.curable_notcurable()
                 st.write(result)
+                st.write("⚠Warning:Information above is a statistical information results of various types of cancer may vary from person to person")
             else:
                 st.write("Error: Cancer type not recognized.")
