@@ -36,7 +36,7 @@ def get_cancer_class(cancer_type, stage):
 
 # Streamlit app
 st.title("Cancer Information Assistant🧑‍⚕️🩻")
-st.write("👋Hello, I am your medical assistant specialized in giving vital information about various types of Brain Cancer and Lung Cancer and overall survival rates of each type🦀.")
+st.write("👋Hello, I am your medical assistant specialized in giving vital information about various types of Brain Cancer and Lung Cancer and overall survival rates of each type.")
 
 cancer_type = st.selectbox("Please select the type of cancer you would like to search for:", ["Select", "Brain Cancer", "Lung Cancer"])
 
