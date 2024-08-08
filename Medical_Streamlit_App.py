@@ -91,5 +91,7 @@ if cancer_type != "Select":
                 
                 st.subheader("Symptoms and Early Detection")
                 st.write(cancer_instance.symptoms())
+                st.markdown("[For more information about cancer, visit the WHO website](https://www.who.int/health-topics/cancer#tab=tab_1)")
+
             else:
                 st.write("Error: Cancer type not recognized.")
